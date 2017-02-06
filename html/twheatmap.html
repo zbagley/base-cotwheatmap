@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Data Standards Limited - Dashboards</title>
+
+    <!-- Bootstrap -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="vendor/nprogress/nprogress.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="css/custom.min.css" rel="stylesheet">
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="vendor/leaflet/leaflet.css" />
+    <script src="vendor/leaflet/leaflet.js"></script>
+    <script src="vendor/leaflet/leaflet-providers.js"></script>
+    <script src="vendor/leaflet/leaflet-heat.js"></script>
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+              <a href="index.html" class="site_title"><i class="fa fa-play-circle"></i> <span class="light">DSLimited</span></a>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <!-- menu profile quick info -->
+            <div class="profile clearfix">
+              <div class="profile_pic">
+                <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+              </div>
+              <div class="profile_info">
+                <span>Welcome,</span>
+                <h2>Joe Business</h2>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <!-- /menu profile quick info -->
+
+            <br />
+
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <ul class="nav side-menu">
+                  <li><a href="index.html"><i class="fa fa-home"></i> Home</span></a>
+                  </li>
+                  <li><a><i class="fa fa-dashboard"></i> Business Analytics<span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="finance.html">Finance</a></li>
+                      <li><a href="inv.html">Inventory</a></li>
+                      <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-bar-chart-o"></i> Other Analytics <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                        <li><a>Twitter<span class="fa fa-chevron-down"></span></a>
+                          <ul class="nav child_menu">
+                            <li class="sub_menu"><a href="twheatmap.html">Boulder County Tweet Heatmap</a>
+                            </li>
+                            <li><a href="twski.html">Colorado Ski Times</a>
+                            </li>
+                            <li><a href="twned.html">Nederland Business Popularity</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li><a>Public Datasets<span class="fa fa-chevron-down"></span></a>
+                          <ul class="nav child_menu">
+                            <li class="sub_menu"><a href="trade.html">Internation Trade</a>
+                            </li>
+                            <li><a href="tax.html">Income Tax vs. Corporate Profits Tax</a>
+                            </li>
+                          </ul>
+                        </li>
+                    </ul>
+                  </li>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <div class="top_nav">
+          <div class="nav_menu">
+            <nav>
+              <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <!-- /top navigation -->
+        <div class="col-lg-8 col-lg-offset-2" id="mapid"></div>
+        <!-- page content -->
+        <div class="right_col" role="main">
+          <div class="">
+            <div class="page-title">
+              <div class="title_left">
+                <h3>Welcome!</h3>
+              </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>Analytics Demos</h2>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+                      <p>Thank you for stopping by my dashboards demo page!</p>
+                      <p>This is the general layout of dashboards I can help design and build for you and your business. Navigate through different pages via the navbar on the left.</p>
+                      <p>In the "Business Analytics" section you'll find example analytics pages that can be considered standards for retail and f&b industries.</p>
+                      <p>In the "Other Analytics" section you will find real-time running advanced analytics demos.</p> 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="https://www.linkedin.com/in/zachary-bagley-69602271" title="LinkedIn">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin-square fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../blog/index.html" title="Advanced Analytics Blog">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.reddit.com/user/regressionisprogress/">
+                                <span class="fa-stack fa-lg" title="Reddit">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-reddit-alien fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+              </div></div>
+            </div>
+          </div>
+            <div class="clearfix"></div>
+        </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <p class="pull-right">Copyright &copy; http://www.datastandards.limited 2016<br>
+                    Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a></p>
+                </div>
+            </div>
+        </div>
+        </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="vendor/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="vendor/nprogress/nprogress.js"></script>
+    
+    <!-- Custom Theme Scripts -->
+    <script src="js/custom.min.js"></script>
+    <script src="js/heatmap.js"></script>
+
+    
+  </body>
+</html>
